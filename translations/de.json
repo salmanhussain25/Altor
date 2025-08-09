@@ -1,0 +1,49 @@
+
+
+{
+  "app": {
+    "title": "ALTOR",
+    "tagline": "Your personal AI-powered learning companion."
+  },
+  "auth": {
+    "login": "Login",
+    "signUp": "Sign Up",
+    "enterName": "Enter your name",
+    "enterPin": "Enter your 4-digit PIN",
+    "loginButton": "Login",
+    "signUpButton": "Sign Up",
+    "errorUserTaken": "Username already taken. Please choose another.",
+    "errorUserNotFound": "User not found. Please check the name or sign up.",
+    "errorIncorrectPin": "Incorrect PIN. Please try again."
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}!",
+    "logout": "Logout",
+    "myCourses": "My Courses",
+    "myProgress": "My Progress",
+    "learnNewSkill": "Learn a New Skill",
+    "learnNewSkillDesc": "Start a guided course with lessons and tasks.",
+    "interviewPrep": "Interview Prep",
+    "interviewPrepDesc": "Practice for your next job interview.",
+    "solveDoubt": "Solve a Doubt",
+    "solveDoubtDesc": "Get instant explanations for any programming problem.",
+    "backToModeSelection": "← Back to mode selection",
+    "generateOutline": "Generate Outline",
+    "courseLength": "Course Length: {numTopics} Topics",
+    "orContinueCourse": "Or Continue a Course",
+    "deleteCourse": "Delete {courseName}",
+    "confirmDeleteTitle": "Delete Course",
+    "confirmDeleteMessage": "Are you sure you want to delete the course {courseName}? This action cannot be undone.",
+    "confirmDeleteNote": "Note: Your certificates and badges for this course will not be deleted.",
+    "enterPinToConfirm": "Enter your 4-digit PIN to confirm:",
+    "cancel": "Cancel",
+    "confirmDeleteButton": "Confirm Delete",
+    "courseOutlineTitle": "Here's the course outline I've prepared. Does this look good?",
+    "backToEdit": "Back to Edit",
+    "createAndStart": "Create Course & Start"
+  },
+  "tutor": {
+    "feedbackCorrect": "That's correct!",
+    "feedbackIncorrect": "That's not quite right. Think about it again.",
+    "feedbackTryAgainMCQ": "No problem, try again.",
+    "feedbackTryAgainTask":

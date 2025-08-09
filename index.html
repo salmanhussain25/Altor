@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALTOR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+      /* For custom scrollbars */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1f2937; /* gray-800 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4b5563; /* gray-600 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280; /* gray-500 */
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .fade-in {
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+      /* Styles for the flippable animation panel */
+      .flip-container {
+        perspective: 1000px;
+        width: 100%;
+        height: 100%;
+      }
+      .flipper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+      }
+      .flip-container.flipped .flipper {
+        transform: rotateY(180deg);
+      }
+      .front, .back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      .back {
+        transform: rotateY(180deg);
+        background-color: #1e1e1e; /* Match CodeMirror theme */
+        overflow: hidden;
+        border-radius: 0.75rem; /* 12px */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@^18.2.0/",
+    "react/": "https://esm.sh/react@^18.2.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.11.0",
+    "html-to-image": "https://esm.sh/html-to-image@^1.11.11",
+    "mermaid": "https://esm.sh/mermaid@10.9.1",
+    "@codemirror/state": "https://esm.sh/@codemirror/state@6.4.1",
+    "@codemirror/view": "https://esm.sh/@codemirror/view@6.26.3?external=@codemirror/state",
+    "@codemirror/commands": "https://esm.sh/@codemirror/commands@6.6.0?external=@codemirror/state",
+    "@codemirror/lang-javascript": "https://esm.sh/@codemirror/lang-javascript@6.2.2?external=@codemirror/state",
+    "@codemirror/lang-python": "https://esm.sh/@codemirror/lang-python@6.1.6?external=@codemirror/state",
+    "@codemirror/lang-html": "https://esm.sh/@codemirror/lang-html@6.4.9?external=@codemirror/state",
+    "@codemirror/lang-css": "https://esm.sh/@codemirror/lang-css@6.2.1?external=@codemirror/state",
+    "@codemirror/theme-one-dark": "https://esm.sh/@codemirror/theme-one-dark@6.1.2?external=@codemirror/state,@codemirror/view",
+    "three": "https://esm.sh/three@0.168.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.16.8?external=react,three",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@9.110.0?external=react,three,@react-three/fiber",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4",
+    "vite": "https://esm.sh/vite@^7.1.1"
+  }
+}
+</script>
+
+
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-white font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
