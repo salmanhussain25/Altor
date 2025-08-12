@@ -42,7 +42,7 @@ export const InterviewRoundsTracker: React.FC<InterviewRoundsTrackerProps> = ({ 
   const { t } = useTranslations();
 
   return (
-    <aside className="w-full md:w-80 lg:w-96 bg-gray-800/50 p-6 flex flex-col border-b md:border-b-0 md:border-r border-gray-700 md:h-full max-h-[50vh] md:max-h-full flex-shrink-0">
+    <aside className="w-full p-6 flex flex-col h-full max-h-[50vh] md:max-h-full">
       <div className="flex items-center justify-between mb-6 flex-shrink-0">
         <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
           {t('interview.interviewPlan')}

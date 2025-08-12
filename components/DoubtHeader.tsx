@@ -9,7 +9,7 @@ interface DoubtHeaderProps {
 export const DoubtHeader: React.FC<DoubtHeaderProps> = ({ onReset }) => {
   const { t } = useTranslations();
   return (
-    <aside className="w-full md:w-80 lg:w-96 bg-gray-800/50 p-6 flex flex-col border-b md:border-b-0 md:border-r border-gray-700 md:h-full max-h-[30vh] md:max-h-full flex-shrink-0">
+    <aside className="w-full p-6 flex flex-col h-full max-h-[30vh] md:max-h-full">
       <div className="flex items-center justify-between mb-6 flex-shrink-0">
         <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">
           {t('doubt.doubtSolver')}

@@ -31,5 +31,8 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
     "@types/three": "^0.167.1"
+  },
+  "overrides": {
+    "three-mesh-bvh": "^0.8.0"
   }
 }
