@@ -1,7 +1,8 @@
 # ALTOR - Your Personal AI Learning Companion
 
-![ALTOR Dashboard](https://i.imgur.com/example-screenshot.png) <!-- It's a good practice to add a real screenshot here -->
-
+![ALTOR Main Dashboard](https://github.com/salmanhussain25/Altor/blob/main/MainDashBoard.jpg) <!-- It's a good practice to add a real screenshot here -->
+![ALTOR Course 3D Dashboard](https://github.com/salmanhussain25/Altor/blob/main/Altor4.8Dashboard.jpg) <!-- It's a good practice to add a real screenshot here -->
+![ALTOR Course 2D Dashboard](https://github.com/salmanhussain25/Altor/blob/main/SkillsectionDashboard.jpg) <!-- It's a good practice to add a real screenshot here -->
 **ALTOR** is an advanced, AI-powered web application designed to be a personal and interactive learning companion. It leverages the Google Gemini API to create dynamic, multilingual educational experiences tailored to your needs. Whether you want to learn a new programming language, prepare for a job interview, or get instant help with a coding problem, ALTOR provides the tools to guide you.
 
 ---
